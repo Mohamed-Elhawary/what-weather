@@ -1,0 +1,37 @@
+body {
+    background-color: #eeedec;
+    letter-spacing: .2em;
+    font-size: .8em;
+}
+
+.container {
+    max-width: 400px;
+}
+
+.icon {
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
+
+footer {
+	margin: 100px auto;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color:#ccc;
+	padding: 5px
+}
+
+footer p {
+    margin-top: 8px;
+}
+
+footer p span {
+    background-color: black;
+    padding: 2px;
+    color: #fff;
+    border-radius: 5px;
+}
