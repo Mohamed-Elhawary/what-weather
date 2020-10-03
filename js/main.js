@@ -1,16 +1,10 @@
-const form    = document.querySelector("form"),
-      card    = document.querySelector(".card"),
-      time    = document.querySelector("img.time"),
-      icon    = document.querySelector(".icon img"),
-      details = document.querySelector(".details"),
-      error   = document.querySelector("p.error");
-
-const getDetails = async (cityName) => {
-    const cityDetails    = await getCity(cityName);  //get promise object
-    const weatherDetails = await getWeather(cityDetails.Key);  //get promis object
-
-    return {cityDetails, weatherDetails}; //this is shorthand code for objects and it is equal to >>  return {cityDetails: cityDetails, weatherDetails:weatherDetails}
-};
+const form     = document.querySelector("form"),
+      card     = document.querySelector(".card"),
+      time     = document.querySelector("img.time"),
+      icon     = document.querySelector(".icon img"),
+      details  = document.querySelector(".details"),
+      error    = document.querySelector("p.error"),
+      forecast = new Forecast();
 
 const updateCard = (data) => {
     console.log(data);
@@ -63,7 +57,7 @@ form.addEventListener("submit", e => {
     const inputValue = form.city.value.trim();
     form.reset();
 
-    getDetails(inputValue)
+    forecast.getDetails(inputValue)
         .then(result => updateCard(result))
         .catch(() => {
             error.classList.remove("d-none");
@@ -77,7 +71,7 @@ form.addEventListener("submit", e => {
 });
 
 if(localStorage.getItem("location")) {
-    getDetails(localStorage.getItem("location"))
+    forecast.getDetails(localStorage.getItem("location"))
         .then(result => updateCard(result))
         .catch(() => {
             error.classList.remove("d-none");
