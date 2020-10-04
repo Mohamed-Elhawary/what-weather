@@ -50,7 +50,7 @@ class Forecast {
 
 ## Built With
 
-* HML5
+* HTML5
 * CSS3
 * ES6  
 
