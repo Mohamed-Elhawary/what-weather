@@ -2,8 +2,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bf53e89a-78a1-4704-a28e-a820843356f2/deploy-status)](https://app.netlify.com/sites/whatweather14/deploys)  
 
-What Weather is a forecasting weather application that allows you to get the weather conditions of a location you choose depending on JSON API.
-  
+What Weather is a forecasting weather app that allows you to get the weather conditions of a location you choose depending on JSON API.
+
 ![Screenshot](preview.png)
 
 
