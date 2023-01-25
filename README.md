@@ -4,22 +4,18 @@
 
 What Weather is a forecasting weather app that allows you to get the weather conditions of a location you choose depending on JSON API.
 
+You can view the App from [here](https://whatweather14.netlify.app/)
+
 ![Screenshot](preview.png)
 
-
-## Getting Started
-
-You can try the APP from [here](https://mohamed-elhawary.github.io/what-weather/)
-
-## Prerequisites
-
-Just Modern Browser like "Chrome" and a Code Editor for Deployment and Develop.  
-
-## versions  
+## versions
+  
 * [v1](https://github.com/Mohamed-Elhawary/what-weather/tree/v1)  
 
 * [v1.1](https://github.com/Mohamed-Elhawary/what-weather/tree/v1.1)  
+
   - Re-build the app with OOP JS technique, which increase from the app performance.
+
 ```
 class Forecast {
     constructor() {
@@ -45,7 +41,6 @@ class Forecast {
         return data[0];
     }
 }
-
 ```  
 
 ## Built With
@@ -56,7 +51,7 @@ class Forecast {
 
 ## Framework
 
-* Bootstrap  
+* [Bootstrap](https://getbootstrap.com/)
 
 ## API  
 
@@ -64,15 +59,15 @@ class Forecast {
 
 ## Author
 
-* Mohamed Elhawary  
+* [Mohamed Elhawary](https://www.linkedin.com/in/mohamed-elhawary14/) 
 
-## Contact Me  
+## Contact me through my social accounts
 
 * Email: mohamed.k.elhawary@gmail.com
-
-## Deploy with Me
-
-Feel Free to Deploy it with me, send Issues or a Pull Request and i'll deal with you, just test it First.
+* [LinkedIn](https://www.linkedin.com/in/mohamed-elhawary14/)
+* [Github](https://github.com/Mohamed-Elhawary)  
+* [Behance](https://www.behance.net/mohamed-elhawary14)
+* [Codepen](https://codepen.io/Mohamed-ElHawary) 
 
 ## License
 
