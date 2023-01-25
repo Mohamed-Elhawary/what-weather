@@ -14,7 +14,7 @@ You can view the App from [here](https://whatweather14.netlify.app/)
 
 * [v1.1](https://github.com/Mohamed-Elhawary/what-weather/tree/v1.1)  
 
-  - Re-build the app with OOP JS technique, which increase from the app performance.
+  - Re-build the App with OOP JS technique, which increase from the App performance.
 
 ```
 class Forecast {
