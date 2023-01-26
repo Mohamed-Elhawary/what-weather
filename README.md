@@ -47,7 +47,7 @@ class Forecast {
 
 * HTML5
 * CSS3
-* ES6  
+* ES6 (Modern JS Syntax)
 
 ## Framework
 
