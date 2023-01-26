@@ -8,6 +8,10 @@ You can view the App from [here](https://whatweather14.netlify.app/)
 
 ![Screenshot](preview.png)
 
+## Demo
+
+https://user-images.githubusercontent.com/69651552/214916210-2b36212d-90d5-4d49-9541-23ebdc2ab3f4.mp4
+
 ## Versions
   
 * [v1](https://github.com/Mohamed-Elhawary/what-weather/tree/v1)  
