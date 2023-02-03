@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bf53e89a-78a1-4704-a28e-a820843356f2/deploy-status)](https://app.netlify.com/sites/whatweather14/deploys)  
 
-What Weather is a forecasting weather App that allows you to get the weather conditions of a location you choose. It depends on the API of Accuweather website.
+What Weather is a forecasting weather App that allows you to get the weather conditions of a location you choose. It depends on the API of AccuWeather website.
 
 You can view the App from [here](https://whatweather14.netlify.app/)
 
@@ -29,7 +29,7 @@ class Forecast {
     }
     async getDetails(cityName) {
         const cityDetails    = await this.getCity(cityName);  //get promise object
-        const weatherDetails = await this.getWeather(cityDetails.Key);  //get promis object
+        const weatherDetails = await this.getWeather(cityDetails.Key);  //get promise object
         return {cityDetails, weatherDetails}; //this is shorthand code for objects and it is equal to >>  return {cityDetails: cityDetails, weatherDetails:weatherDetails}
     }
     async getCity(city) {
@@ -59,7 +59,7 @@ class Forecast {
 
 ## API  
 
-* [Accuweather](https://accuweather.com)
+* [AccuWeather](https://accuweather.com)
 
 ## Author
 
