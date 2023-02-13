@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/69651552/214916210-2b36212d-90d5-4d49-
 
 * [v1.1](https://github.com/Mohamed-Elhawary/what-weather/tree/v1.1)  
 
-  - Re-build the App with OOP JS technique, which increase from the App performance.
+  - Re-build the App with OOP JS technique, which enhance the App performance.
 
 ```
 class Forecast {
@@ -47,10 +47,10 @@ class Forecast {
 }
 ```  
 
-## Built With
+## Built with
 
-* HTML5
-* CSS3
+* HTML
+* CSS
 * Vanilla JS
 
 ## Frameworks
@@ -68,7 +68,7 @@ class Forecast {
 ## Contact me through my social accounts
 
 * Email: mohamed.k.elhawary@gmail.com
-* [LinkedIn](https://www.linkedin.com/in/mohamed-elhawary14/)
+* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
 * [Github](https://github.com/Mohamed-Elhawary)  
 * [Behance](https://www.behance.net/mohamed-elhawary14)
 * [Codepen](https://codepen.io/Mohamed-ElHawary) 
